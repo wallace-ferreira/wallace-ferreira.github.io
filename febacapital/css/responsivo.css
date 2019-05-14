@@ -1,0 +1,155 @@
+/* RESPONSIVO */
+@media only screen and (max-width: 998px){
+.logo {
+  margin-top: 6px;
+}
+.menu li a{
+  margin-left: 0;
+}
+.usa img{
+  margin-left: 0;
+}
+.order {
+  order: 2;
+}
+/* MENU MOBILE*/
+.mobile-btn {
+  display: block;
+  color:#6679a5;
+  width: 36px;
+  height: 36px;
+  border-top: 4px solid;
+  margin: 20px 20px 0 0;
+  position: absolute;
+  top: 0;
+  right: -13px;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+}
+.mobile-btn::after, .mobile-btn::before {
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 6px;
+  background: currentColor;
+  position: relative;
+  transition: transform .2s ease;
+}
+.mobile-btn.active {
+  border-top-color: transparent;
+}
+.mobile-btn.active::after {
+  margin-top: 0px;
+  top: 2px;
+  transform: rotate(45deg);
+}
+.mobile-btn.active::before {
+  margin-top: 0px;
+  top: 6px;
+  transform: rotate(135deg);
+}
+
+.menu.mobile-menu {
+  border: 1px solid;
+  position: fixed;
+  background: #fff;
+  padding: 10px 20px;
+  top: 74px;
+  right: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate3d(60px, 0px, 0px);
+  transition: .3s;
+}
+.menu.mobile-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0px, 0px, 0px)
+}
+.menu.mobile-menu ul{
+  display: block;
+}
+.menu.mobile-menu li {
+  margin-bottom: 5px;
+}
+.grupo {
+  flex-wrap: wrap;
+}
+.baloon {
+  flex-direction: column;
+}
+.balao h2 {
+  text-align: center;
+}
+.balao p {
+  text-align: center;
+  margin: 0 auto 30px auto
+}
+.conteudo {
+  flex-direction: column;
+}
+.bloco-a {
+  max-width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 780px){
+.bloco-1 {
+  text-align: center
+}
+.btn-intro {
+  margin-bottom: 30px;
+}
+.btn-footer a {
+  margin-left: 0px;
+}
+.margem-balao-2 {
+  margin-top: 10px;;
+}
+.footer-info {
+  flex-wrap: wrap;
+}
+
+}
+
+@media only screen and (max-width: 567px){
+  .btn {
+    text-align: center;
+  }
+  .grupo {
+    justify-content: center;
+  }
+  .margem-balao {
+    margin-right: 0;
+  }
+  .margem-balao-2 {
+    margin-top: 10px;;
+  }
+  .footer-2 {
+    flex-direction: column;
+  }
+  .footer-2 li {
+    margin-bottom: 10px;
+  }
+  .footer-3 div a img {
+    margin-top: 10px;
+  }
+
+}
+
+
+

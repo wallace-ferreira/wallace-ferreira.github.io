@@ -1,0 +1,88 @@
+/* RESET*/ 
+* {
+	box-sizing: border-box;
+}
+body, h1, div, p, span, ul, li, img {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 70%;
+}
+h1 {
+  font-size: 30px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* INICIO DO ESTILO */
+.cabecalho {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto 60px auto;
+  padding: 0 10px;
+}
+
+/*RESPONSIVO*/
+@media only screen and (max-width: 808px) {
+.cabecalho {
+  justify-content: center;
+}
+.cabecalho img {
+  margin: 0 auto;
+}
+.box-info {
+  margin-top: 30px;
+}
+}
+/*FIM-RESPONSIVO*/
+.box-info {
+  display: flex;
+  flex-direction: column;
+  text-align: right
+}
+.info {
+  border-bottom: 4px solid #000;
+  margin-bottom: 30px;
+}
+.info p {
+  font-size: 30px;
+  font-weight: bold;
+}
+.info span {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  text-align:right;
+}
+.info-2 p {
+  line-height: 1.4em;
+  font-style: italic;
+}
+
+
+.info-geral {
+  flex-direction: column;
+  margin: 30px auto 60px auto;
+  padding: 0 10px;
+}
+.curso {
+  font-size: 18px;
+  font-weight:bold;
+  text-decoration: underline;
+}
+.extensao {
+  font-style: italic;
+}
+

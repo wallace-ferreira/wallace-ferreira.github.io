@@ -1,0 +1,244 @@
+/*Estilo para smartphone*/
+@media only screen and (max-width: 809px) {
+/* HEADER */
+.logo{
+	margin: 0 auto;
+}
+.header, .info-header, .info-header-2 { 
+	flex-direction: column;
+}
+.logo {
+	margin-bottom: 20px;
+}
+.info-header p{
+	margin-right: 0;
+}
+.info-header-2 a:nth-child(1){
+	margin-right: 0;
+}
+.sair, .fone {
+	justify-content: center;
+}
+.btn-mobile {
+	border: 2px solid #202124;
+	width: 161px;
+	text-align: center;
+	padding: 5px ;
+	margin:0 auto 5px auto;
+}
+.btn-mobile:hover{
+	border-color: #fff;
+}
+
+/* BARRA DE PESQUISA */
+.barra-pesquisa {
+	position: static;
+}
+
+.barra-container {
+	width: 100%;
+	flex-direction: column;
+}
+.select {
+	width: 100%;
+	flex-direction: column;
+}
+.btn {
+	width: 100%;
+	margin: 5px 0 5px 0;
+	background-position: 97%;
+}
+.btn-procura {
+	width: 100%;
+	margin:5px 0 0 0;
+}
+
+/* INTRODUÇÃO */
+.intro-fundo {
+	flex-direction: column;
+}
+.data-evento {
+	display: none;
+}
+.card-1 {
+  width: 100%;
+}
+.card-2 p {
+	padding-right: 0;
+}
+.local {
+	width: 100%;
+}
+.local span {
+	margin: 20px 10px 0 0;
+}
+.botoes {
+	flex-direction: column;
+	width: 100%;
+}
+.btn-2 {
+	max-width: 100%;
+	width: 100%;
+}
+.btn-3 {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 5px;
+}
+
+/* FOOTER */
+.info-geral {
+	flex-direction: column;
+}
+.redes-sociais {
+	width: 100%;
+	padding-top: 30px;
+	margin-left: 0;
+}
+.redes-sociais p {
+	padding/-right: 0;
+}
+.info-footer ul {
+	width: 100%;
+	flex-direction: column;
+}
+.info-geral-2 a {
+	margin-top: 20px;
+}
+.link-redes {
+	margin: 20px 0;
+}
+
+}
+
+/* RESPONSIVO - PAGE - EVENTOS */
+@media only screen and (max-width: 809px){
+
+/* HEADER */
+.bg-eventos { 
+  background: url("../img/eventos/bg-mobile.jpg") no-repeat center;
+  background-size: cover;
+  height: 270px;
+}
+
+/* INTRODUÇÃO */
+.card-eventos {
+  width: 62%;
+  margin: 0 auto
+ }
+.card-eventos-2 {
+	text-align: center;
+}
+.localizacao {
+	margin: 0 auto;
+}
+.localizacao span {
+	margin-right: 40px;
+}
+.geral {
+	flex-direction: column;
+}
+
+.card-eventos-2 {
+  padding-left: 0px;
+ }
+.card-eventos-2-1{
+	width: 100%;
+}
+.detalhes {
+	justify-content: space-around;
+}
+
+}
+
+@media only screen and (max-width: 447px){
+.card-eventos {
+ 	width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
